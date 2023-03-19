@@ -2,7 +2,7 @@
     "name": "cw3-individual",
     "version": "1.0.0",
     "description": "Web based mobile App CW3 individual project",
-    "main": "index.js",
+    "main": "index.html",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "nodemon server.js"
