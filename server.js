@@ -2,7 +2,7 @@ const express = require("express");
 var app = express();
 const { MongoClient } = require("mongodb");
 // uri for mongodb
-var uri = "mongodb+srv://ad1581:<password>@cluster0.nlwvzii.mongodb.net/?retryWrites=true&w=majority";
+var uri = "mongodb+srv://ad1581:Adelmar@cluster0.nlwvzii.mongodb.net/?retryWrites=true&w=majority";
 var client = new MongoClient(uri);
 
 async function connect() {
