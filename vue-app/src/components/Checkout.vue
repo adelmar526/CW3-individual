@@ -45,11 +45,11 @@ export default {
     <h1>Confirm your order</h1>
     <div class="input-group">
       <label for="name">Enter your name:</label>
-      <input v-model="name" type="text" placeholder="John Doe." />
+      <input v-model="name" type="text" placeholder="Luca Perez." />
     </div>
     <div class="input-group">
-      <label for="name">Enter your phone number:</label>
-      <input v-model="phone" type="text" placeholder="123456789" />
+      <label for="name">Enter your phone number(11 numbers):</label>
+      <input v-model="phone" type="text" placeholder="012345678910" />
     </div>
 
     <button
