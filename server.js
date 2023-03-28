@@ -4,7 +4,7 @@ const express = require("express");
 var app = express();
 const { MongoClient } = require("mongodb");
 var uri =
-    "mongodb+srv://ad1581:<Adelmar>@cluster0.nlwvzii.mongodb.net/?retryWrites=true&w=majority"; //uri for mongodb
+    "mongodb+srv://ad1581:Adelmar@cluster0.nlwvzii.mongodb.net/?retryWrites=true&w=majority"; //uri for mongodb
 var client = new MongoClient(uri);
 
 async function connect() {
