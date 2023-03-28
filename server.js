@@ -4,7 +4,7 @@ const express = require("express");
 var app = express();
 const { MongoClient } = require("mongodb");
 var uri =
-    "mongodb+srv://darius-dude:dyWNzqsGVhErKgwX@cluster0.hlvaagz.mongodb.net/?retryWrites=true&w=majority"; //uri for mongodb
+    "mongodb+srv://ad1581:<Adelmar>@cluster0.nlwvzii.mongodb.net/?retryWrites=true&w=majority"; //uri for mongodb
 var client = new MongoClient(uri);
 
 async function connect() {
@@ -20,7 +20,7 @@ connect();
 
 async function getLessons() { // retrieves lessons from mongodb
     return client
-        .db("project")
+        .db("app")
         .collection("lessons")
         .find().toArray(); // the array method is used to convert the lesson information
 }
