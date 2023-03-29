@@ -48,7 +48,7 @@ export default {
       <input v-model="name" type="text" placeholder="Luca Perez." />
     </div>
     <div class="input-group">
-      <label for="name">Enter your phone number(11 numbers):</label>
+      <label for="name">Enter your phone number:</label>
       <input v-model="phone" type="text" placeholder="012345678910" />
     </div>
 

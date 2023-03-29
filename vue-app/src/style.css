@@ -144,7 +144,7 @@ button {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background: #f1f5f9;
+    background: lightgreen;
     padding: 40px;
     border-radius: 10px;
 }
